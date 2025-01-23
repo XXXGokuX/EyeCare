@@ -1,3 +1,4 @@
+import MainNav from "@/components/menu/main-nav";
 import Announcement from "../components/home/Announcement";
 import Banner from "../components/home/Banner";
 import BannerBottom from "../components/home/BannerBottom";
@@ -19,7 +20,9 @@ export default function Home(){
 
     return (
         <>
+            
             <Announcement/>
+            <MainNav/>
             <Banner/>
             <BannerBottom/>
             <EveryVision/>

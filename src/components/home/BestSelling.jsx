@@ -1,4 +1,4 @@
-import { ProductSlider } from "../../ui/ProductSlider"
+import { ProductSlider } from "../../utils/ProductSlider"
 
 export default function BestSelling() {
   const deals = [
