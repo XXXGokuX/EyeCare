@@ -1,5 +1,5 @@
 
-import { Search, Menu, Heart, ShoppingBag, HelpCircle, ChevronDown } from "lucide-react"
+import { Search, Menu, Heart, ShoppingBag, HelpCircle, ChevronDown, FacebookIcon, InstagramIcon, YoutubeIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
@@ -34,25 +34,31 @@ export default function MainNav() {
             <SheetContent side="left" className="w-[300px] sm:w-[400px] overflow-auto">
               <nav className="flex flex-col space-y-4">
                 <Accordion type="single" collapsible className="w-full">
-                  {["Eyeglasses", "Sunglasses", "Premium Brands", "Lenses"].map((item) => (
+                  {["Eyeglasses", "Sunglasses", "Our Brands", "Lenses", "Contact Us"].map((item) => (
                     <AccordionItem value={item} key={item}>
                       <AccordionTrigger>{item}</AccordionTrigger>
                       <AccordionContent>
                         {/* Add content for each accordion item */}
                         {item === "Eyeglasses" && <MegaMenuEyeglasses />}
                         {item === "Sunglasses" && <MegaMenuSunglasses />}
-                        {item === "Premium Brands" && <MegaMenuBrands />}
+                        {item === "Our Brands" && <MegaMenuBrands />}
                         {item === "Lenses" && <MegaMenuLenses />}
+                        {item === "Contact Us" && (
+                          <div className="text-sm text-gray-700">
+                            <p>For inquiries, please visit our <a href="/contact-us" className="text-blue-500 hover:underline">Contact Us</a> page.</p>
+                          </div>
+                        )}
                       </AccordionContent>
                     </AccordionItem>
                   ))}
                 </Accordion>
               </nav>
             </SheetContent>
+
           </Sheet>
 
           <a href="/" className="mr-6 flex items-center space-x-2">
-            <span className="text-xl font-bold text-primary">eyebuydirect</span>
+            <span className="text-xl font-bold text-primary uppercase">amvieyewear</span>
           </a>
         </div>
 
@@ -80,7 +86,7 @@ export default function MainNav() {
 
             <NavigationMenuItem>
               <NavigationMenuTrigger>
-                Premium Brands
+                Our Brands
                 {/* <ChevronDown className="ml-1 h-4 w-4" /> */}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -97,7 +103,15 @@ export default function MainNav() {
                 <MegaMenuLenses />
               </NavigationMenuContent>
             </NavigationMenuItem>
+
+            <NavigationMenuItem>
+              <a href="/contact-us" className="px-4 py-2 text-sm font-medium">
+                Contact Us
+              </a>
+            </NavigationMenuItem>
           </NavigationMenuList>
+
+
         </NavigationMenu>
 
         <div className="flex items-center space-x-4">
@@ -118,11 +132,17 @@ export default function MainNav() {
               <Heart className="h-6 w-6" />
             </Button>
             <Button variant="ghost" size="icon">
-              <ShoppingBag className="h-6 w-6" />
+              <FacebookIcon className="h-6 w-6" />
             </Button>
-            <Button variant="ghost" className="hidden md:inline-flex">
+            <Button variant="ghost" size="icon">
+              <InstagramIcon className="h-6 w-6" />
+            </Button>
+            <Button variant="ghost" size="icon">
+              <YoutubeIcon className="h-6 w-6" />
+            </Button>
+            {/* <Button variant="ghost" className="hidden md:inline-flex">
               Sign In
-            </Button>
+            </Button> */}
           </nav>
         </div>
       </div>

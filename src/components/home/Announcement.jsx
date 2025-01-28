@@ -5,7 +5,7 @@ function Announcement() {
         <div class="bg-custom-amber border border-custom-amber text-black p-2 py-2.5 animate-fade-in">
             <div class="flex items-center justify-center">
                 <p class="text-sm text-center">
-                    Los Angeles Wildfires Support ❤️
+                    India's top eyewear brand ❤️
                     <a href="/collections/wildfire-glasses-donation" class="text-yellow-700 hover:underline">Learn more</a>
                 </p>
             </div>

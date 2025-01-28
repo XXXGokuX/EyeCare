@@ -29,8 +29,9 @@ function EveryVision() {
                     <a href="/eyeglasses" class="underline text-[#d39d4e]">eyeglasses</a> and prescription
                     <a href="/sunglasses" class="underline text-[#d39d4e]">sunglasses</a>.<br />
                     Shop thousands of glasses with
-                    <a href="/virtual-try-on" class="underline text-[#d39d4e]">Virtual Try-On</a>,
-                    <a href="/fast-shipping-service" class="underline text-[#d39d4e]">2-Day Delivery</a>, and frames starting at just $6!
+                    <a href="/virtual-try-on" class=" font-bold font-serif mx-1">AMVI</a>,
+                    <a href="/fast-shipping-service" class=" font-bold font-serif mx-1">HITHVI</a>, and 
+                    <a href="/fast-shipping-service" class=" font-bold font-serif mx-1">HITSAY</a>
                 </p>
             </div>
             <div class="flex flex-col md:flex-row items-center justify-center gap-4">

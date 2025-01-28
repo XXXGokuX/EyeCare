@@ -43,7 +43,7 @@ function Banner() {
                                 <strong>30% OFF</strong>
                             </p>
                             <p class="text-[32px] md:text-[53px] leading-[1.2] -mt-2 mb-1">
-                                <strong>ORDERS $100+</strong>
+                                <strong className=' font-semibold '>ORDERS Rs. 10000+</strong>
                             </p>
                             <p class="text-[24px] md:text-[32px] leading-[1.4] mt-2">CODE: REFRESH</p>
                         </div>
