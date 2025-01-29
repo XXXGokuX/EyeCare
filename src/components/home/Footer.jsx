@@ -1,5 +1,5 @@
 import React from 'react'
-import googleIcon from "@/assets/google.png"
+import googleIcon from "@/assets/google (2).png"
 
 function Footer() {
     return (
