@@ -127,13 +127,13 @@ export default function MainNav() {
             <Button variant="ghost" size="icon" className="hidden md:block">
               <Search className="h-6 w-6 md:hidden" />
             </Button>
-            <Link to="/faq">
-              <Button variant="ghost" size="icon" className="hidden md:block">
+            <Link to="/faq" className="hidden md:block">
+              <Button variant="ghost" size="icon">
                 <HelpCircle className="h-6 w-6" />
               </Button>
             </Link>
-            <Link to="/about">
-              <Button variant="ghost" size="icon" className="hidden md:block">
+            <Link to="/about" className="hidden md:block">
+              <Button variant="ghost" size="icon">
                 <Heart className="h-6 w-6" />
               </Button>
             </Link>
