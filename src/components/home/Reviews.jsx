@@ -14,21 +14,21 @@ const reviews = [
   {
     name: "PAUHOV X.",
     title: "Awesome!",
-    image: "https://img.ebdcdn.com/cms/2_cc1c0f9eda.png",
+    image: "https://img.freepik.com/free-photo/smiling-businessman-face-portrait-wearing-suit_53876-148138.jpg?uid=R106559544&semt=ais_hybrid",
     content:
       "These glasses fit perfectly! They are super lightweight, yet also feel very sturdy at the same time. The colors and design are beautiful. Will be a returning customer!",
   },
   {
     name: "SAMANTHA J.",
     title: "I LOVE EyeBuyDirect",
-    image: "https://img.ebdcdn.com/cms/2_cc1c0f9eda.png",
+    image: "https://img.freepik.com/free-photo/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-with-straight-blonde-hair-expresses-positiveness-poses_176420-13176.jpg?uid=R106559544&semt=ais_hybrid",
     content:
       "It's so user-friendly and the customer service is incredible! I tell everyone who compliments my glasses to use this site. Thank you!",
   },
   {
     name: "ALEX T.",
     title: "Great Quality",
-    image: "https://img.ebdcdn.com/cms/2_cc1c0f9eda.png",
+    image: "https://img.freepik.com/free-photo/cute-smiling-young-man-with-bristle-looking-satisfied_176420-18989.jpg?uid=R106559544&semt=ais_hybrid",
     content:
       "I love the style and quality of these glasses. I always get compliments on them and will definitely be buying more!",
   },
@@ -99,7 +99,7 @@ export default function ReviewSlider() {
                   <img
                     src={review.image}
                     alt={review.name}
-                    className="w-20 h-20 rounded-full border-4 border-gray-200 shadow-md mb-4"
+                    className="w-20 h-20 object-cover rounded-full border-4 border-gray-200 shadow-md mb-4"
                   />
                   <h3 className="text-xl font-bold text-gray-800 mb-1">{review.name}</h3>
                   <p className="text-yellow-600 font-semibold mb-4">{review.title}</p>

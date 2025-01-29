@@ -58,7 +58,6 @@ function Footer() {
                             <li><a href="https://www.eyebuydirect.com/eyeglasses/cheap" class="hover:underline">Affordable Glasses</a></li>
                             <li><a href="https://www.eyebuydirect.com/eyeglasses" class="hover:underline">All Eyeglasses</a></li>
                             <li><a href="https://www.eyebuydirect.com/prescription-lens/digital-protection" class="hover:underline">Blue Light Glasses</a></li>
-                            <li><a href="https://www.eyebuydirect.com/eyeglasses/progressive" class="hover:underline">Progressive Lenses</a></li>
                             <li><a href="https://www.eyebuydirect.com/brands" class="hover:underline">All Brands</a></li>
                             <li><a href="https://www.eyebuydirect.com/promotions" class="hover:underline">Promotions</a></li>
                             <li><a href="https://www.eyebuydirect.com/discount-coupons" class="hover:underline">Discount Coupons</a></li>
@@ -69,44 +68,39 @@ function Footer() {
                     <div>
                         <h3 class="text-lg font-bold mb-4">Tips & Guides</h3>
                         <ul class="space-y-2">
-                            <li><a href="https://www.eyebuydirect.com/guides/how-to-buy-prescription-eyeglasses-online" class="hover:underline">How to Order Glasses Online</a></li>
-                            <li><a href="https://www.eyebuydirect.com/guides/how-to-choose-eyeglass-lenses" class="hover:underline">How to Choose Lenses</a></li>
+               
                             <li><a href="https://www.eyebuydirect.com/guides/frames-and-face-shapes" class="hover:underline">Frames for Your Face Shape</a></li>
                             <li><a href="https://www.eyebuydirect.com/guides/eye-care-tips" class="hover:underline">Eye Care Tips</a></li>
                             <li><a href="https://www.eyebuydirect.com/faq" class="hover:underline">Help & FAQ</a></li>
-                            <li><a href="https://www.eyebuydirect.com/guides/find-an-eye-doctor" class="hover:underline">Find an Eye Doctor</a></li>
-                            <li><a href="https://www.eyebuydirect.com/accessibility" class="hover:underline">Accessibility Statement</a></li>
-                            <li><a href="https://www.eyebuydirect.com/virtual-try-on" class="hover:underline">Virtual Try-On</a></li>
                             <li><a href="https://www.eyebuydirect.com/guides/pupillary-distance" class="hover:underline">Pupillary Distance (PD)</a></li>
-                            <li><a href="https://www.eyebuydirect.com/lens-index" class="hover:underline">Lens Index</a></li>
-                            <li><a href="https://www.eyebuydirect.com/vision-insurance" class="hover:underline">Vision Insurance</a></li>
                         </ul>
                     </div>
 
                     {/* <!-- Our Programs --> */}
                     <div>
-                        <h3 class="text-lg font-bold mb-4">Our Programs</h3>
+                        {/* <h3 class="text-lg font-bold mb-4">Our Programs</h3>
                         <ul class="space-y-2">
                             <li><a href="https://www.eyebuydirect.com/referral-program" class="hover:underline">Referral Program</a></li>
                             <li><a href="https://www.eyebuydirect.com/loyalty-program" class="hover:underline">Loyalty Program</a></li>
                             <li><a href="https://www.eyebuydirect.com/affiliate-program" class="hover:underline">Affiliate Program</a></li>
                             <li><a href="https://www.eyebuydirect.com/student-discount" class="hover:underline">Student Discount</a></li>
-                        </ul>
+                        </ul> */}
                         <h3 class="text-lg font-bold mt-8 mb-4">Our Brands</h3>
                         <ul class="space-y-2">
-                            <li><a href="https://www.framesdirect.com/" class="hover:underline">FramesDirect.com</a></li>
-                            <li><a href="https://www.readers.com/" class="hover:underline">Readers.com</a></li>
+                            <li><a href="https://www.framesdirect.com/" class="hover:underline">AMVI</a></li>
+                            <li><a href="https://www.readers.com/" class="hover:underline">HITHVI</a></li>
+                            <li><a href="https://www.readers.com/" class="hover:underline">HITSAY</a></li>
+
                         </ul>
                     </div>
                 </div>
 
                 <div class="border-t border-gray-700 mt-8 pt-4 text-center">
-                    <p class="text-sm">© 2006-2025 eyebuydirect.com</p>
+                    <p class="text-sm">© 2010-2025 eyebuydirect.com | Crafted by Techvision Digital</p>
                     <ul class="flex justify-center space-x-4 mt-2 md:flex-row flex-col">
                         <li><a href="https://www.eyebuydirect.com/privacy-policy" class="hover:underline text-sm">Privacy Policy</a></li>
                         <li><a href="https://www.eyebuydirect.com/terms-and-conditions" class="hover:underline text-sm">Terms and Conditions of Use</a></li>
                         <li><a href="https://www.eyebuydirect.com/cookie-policy" class="hover:underline text-sm">Cookie Notice</a></li>
-                        <li><a href="https://www.eyebuydirect.com/california-collection-notice" class="hover:underline text-sm">California Collection Notice</a></li>
                         <li><a href="https://www.eyebuydirect.com/consumer-health-data-policy" class="hover:underline text-sm">Consumer Health Data Privacy Policy</a></li>
                         <li><a href="https://www.eyebuydirect.com/privacy-choices" class="hover:underline text-sm">Your Privacy Choices</a></li>
                     </ul>

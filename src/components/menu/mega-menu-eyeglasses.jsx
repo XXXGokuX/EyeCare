@@ -1,16 +1,16 @@
 
 export function MegaMenuEyeglasses() {
   return (
-    <div className="space-y-4 p-4 md:w-[800px] md:p-6">
-      <div className="grid gap-4 md:grid-cols-4">
+    <div className="space-y-4 p-4 md:w-[600px] md:p-6">
+      <div className="grid gap-4">
         <div className="space-y-3">
           <h3 className="font-medium">Shop</h3>
           <ul className="space-y-2">
-            <li>
+            {/* <li>
               <a href="#" className="text-sm hover:text-primary">
                 Eyeglasses
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#" className="text-sm hover:text-primary">
                 Women's Eyeglasses
@@ -33,7 +33,7 @@ export function MegaMenuEyeglasses() {
             </li>
           </ul>
         </div>
-        <div className="space-y-3">
+        {/* <div className="space-y-3">
           <h3 className="font-medium">Featured</h3>
           <ul className="space-y-2">
             <li>
@@ -57,7 +57,7 @@ export function MegaMenuEyeglasses() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   )

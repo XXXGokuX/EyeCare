@@ -21,10 +21,9 @@ export default function Home(){
     return (
         <>
             
-            <Announcement/>
-            <MainNav/>
+            
             <Banner/>
-            <BannerBottom/>
+            {/* <BannerBottom/> */}
             <EveryVision/>
             <BestDeals/>
             <BestSelling/>
@@ -32,12 +31,12 @@ export default function Home(){
             <TwoBanner/>
             <PickStyle/>
             <Ordering/>
-            <Tryon/>
+            {/* <Tryon/> */}
             <ReviewSlider/>
             <Follow/>
             <Questions/>
             <Newsletter/>
-            <Footer/>
+            
         </>
     )
 }

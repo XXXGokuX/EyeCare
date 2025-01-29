@@ -7,11 +7,11 @@ export function MegaMenuSunglasses() {
         <div className="space-y-3">
           <h3 className="font-medium">Shop</h3>
           <ul className="space-y-2">
-            <li>
+            {/* <li>
               <a href="#" className="text-sm hover:text-primary">
                 Sunglasses
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#" className="text-sm hover:text-primary">
                 Women's Sunglasses

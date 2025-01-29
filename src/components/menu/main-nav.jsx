@@ -17,6 +17,8 @@ import { MegaMenuLenses } from "./mega-menu-lenses"
 import { useState } from "react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import googleIcon from "@/assets/google.png"
+import { Link, useNavigate } from "react-router"
 
 export default function MainNav() {
   const [isOpen, setIsOpen] = useState(false)
@@ -57,9 +59,9 @@ export default function MainNav() {
 
           </Sheet>
 
-          <a href="/" className="mr-6 flex items-center space-x-2">
+          <Link to="/" className="mr-6 flex items-center space-x-2">
             <span className="text-xl font-bold text-primary uppercase">amvieyewear</span>
-          </a>
+          </Link>
         </div>
 
         <NavigationMenu className="hidden md:flex">
@@ -94,20 +96,20 @@ export default function MainNav() {
               </NavigationMenuContent>
             </NavigationMenuItem>
 
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuTrigger>
                 Lenses
-                {/* <ChevronDown className="ml-1 h-4 w-4" /> */}
+                <ChevronDown className="ml-1 h-4 w-4" />
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <MegaMenuLenses />
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
             <NavigationMenuItem>
-              <a href="/contact-us" className="px-4 py-2 text-sm font-medium">
+              <Link to="/contact" className="px-4 py-2 text-sm font-medium">
                 Contact Us
-              </a>
+              </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
 
@@ -122,15 +124,19 @@ export default function MainNav() {
             </div>
           </div>
           <nav className="flex items-center space-x-2">
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" className="hidden md:block">
               <Search className="h-6 w-6 md:hidden" />
             </Button>
-            <Button variant="ghost" size="icon">
-              <HelpCircle className="h-6 w-6" />
-            </Button>
-            <Button variant="ghost" size="icon">
-              <Heart className="h-6 w-6" />
-            </Button>
+            <Link to="/faq">
+              <Button variant="ghost" size="icon" className="hidden md:block">
+                <HelpCircle className="h-6 w-6" />
+              </Button>
+            </Link>
+            <Link to="/about">
+              <Button variant="ghost" size="icon" className="hidden md:block">
+                <Heart className="h-6 w-6" />
+              </Button>
+            </Link>
             <Button variant="ghost" size="icon">
               <FacebookIcon className="h-6 w-6" />
             </Button>
@@ -138,7 +144,7 @@ export default function MainNav() {
               <InstagramIcon className="h-6 w-6" />
             </Button>
             <Button variant="ghost" size="icon">
-              <YoutubeIcon className="h-6 w-6" />
+              <img src={googleIcon} className="h-5 w-5" />
             </Button>
             {/* <Button variant="ghost" className="hidden md:inline-flex">
               Sign In

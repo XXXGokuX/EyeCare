@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router';
 function Banner() {
     return (
         <>
@@ -47,11 +47,13 @@ function Banner() {
                             </p>
                             <p class="text-[24px] md:text-[32px] leading-[1.4] mt-2">CODE: REFRESH</p>
                         </div>
-                        <button
-                            class="mt-2 mb-0 px-12 py-2 bg-[#D39D4E] text-white font-medium rounded"
-                        >
-                            Shop now
-                        </button>
+                        <Link to="/contact">
+                            <button
+                                class="mt-2 mb-0 px-12 py-2 bg-[#D39D4E] text-white font-medium rounded"
+                            >
+                                Shop now
+                            </button>
+                        </Link>
                     </div>
                     <p
                         class="absolute bottom-0 right-0 p-2 text-right text-[12px] text-black font-normal"

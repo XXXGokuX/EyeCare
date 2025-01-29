@@ -41,9 +41,12 @@ export function ProductSlider({ title, products, shopAllLink, shopAllText }) {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -90,9 +93,9 @@ export function ProductSlider({ title, products, shopAllLink, shopAllText }) {
                   </div>
                   <div className="p-4 text-center">
                     <h3 className="text-lg font-medium">
-                      {product.name} ${product.currentPrice}{" "}
+                      {product.name} ₹{product.currentPrice}{" "}
                       <span className="text-gray-400 line-through">
-                        ${product.originalPrice}
+                      ₹{product.originalPrice}
                       </span>
                     </h3>
                     <div className="flex justify-center gap-2 mt-2">

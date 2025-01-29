@@ -54,16 +54,7 @@ function Newsletter() {
                     role="region"
                     aria-label="privacy-policy"
                 >
-                    By subscribing, I confirm that I am over 16 years of age and agree that
-                    my personal data can be used by Luxottica Group S.p.A to send me news,
-                    special offers, and other marketing communication as part of the
-                    Eyebuydirect Loyalty Program. For more information, see our
-                    <a href="/privacy-policy#financial-incentive" class="underline">
-                        Notice of Financial Incentives
-                    </a>
-                    ,
-                    <a href="/privacy-policy" class="underline">Privacy Policy</a>, and
-                    <a href="/terms-of-use" class="underline">Terms & Conditions</a>.
+                    By subscribing, I confirm that I am over 18 years of age and agree that my personal data can be used by Amvieyewear to send me news, special offers, and other marketing communication as part of the Amvieyewear Loyalty Program.
                 </div>
             </div>
         </div>

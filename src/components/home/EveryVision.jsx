@@ -25,7 +25,7 @@ function EveryVision() {
                     It’s always a good day to buy glasses online.
                 </h1>
                 <p class="text-lg leading-relaxed text-black mt-5 mb-10 font-normal">
-                    Express your every vision with affordable
+                    Express your every vision with affordable&nbsp;
                     <a href="/eyeglasses" class="underline text-[#d39d4e]">eyeglasses</a> and prescription
                     <a href="/sunglasses" class="underline text-[#d39d4e]">sunglasses</a>.<br />
                     Shop thousands of glasses with

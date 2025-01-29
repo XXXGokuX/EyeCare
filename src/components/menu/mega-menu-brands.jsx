@@ -1,17 +1,13 @@
 
 export function MegaMenuBrands() {
   return (
-    <div className="md:w-[800px] p-6">
-      <div className="grid md:grid-cols-4 gap-6">
+    <div className="md:w-[600px] p-6">
+      <div className="grid md:grid-cols-3 gap-6">
         {[
-          { name: "Ray-Ban", image: "placeholder.svg" },
-          { name: "Coach", image: "placeholder.svg" },
-          { name: "Oakley", image: "placeholder.svg" },
-          { name: "Vogue Eyewear", image: "placeholder.svg" },
-          { name: "Armani Exchange", image: "placeholder.svg" },
-          { name: "Ralph", image: "placeholder.svg" },
-          { name: "ARNETTE", image: "placeholder.svg" },
-          { name: "RFLKT®", image: "placeholder.svg" },
+          { name: "AMVI", image: "placeholder.svg" },
+          { name: "HITHVI", image: "placeholder.svg" },
+          { name: "HITSAY", image: "placeholder.svg" },
+          
         ].map((brand) => (
           <a key={brand.name} href="#" className="group relative">
             <div className="overflow-hidden rounded-lg">
