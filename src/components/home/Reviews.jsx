@@ -9,18 +9,20 @@ const reviews = [
     title: "Perfect Fit",
     image: "https://img.ebdcdn.com/cms/2_cc1c0f9eda.png",
     content:
-      "The website was easy to use, the glasses shipped quickly, and I get nothing but compliments on my new glasses! Thanks!!",
+    "Amazing experience! The products are top-notch, and delivery was super fast. Highly recommend this store for quality eyewear."
+
   },
   {
     name: "PAUHOV X.",
     title: "Awesome!",
     image: "https://img.freepik.com/free-photo/smiling-businessman-face-portrait-wearing-suit_53876-148138.jpg?uid=R106559544&semt=ais_hybrid",
     content:
-      "These glasses fit perfectly! They are super lightweight, yet also feel very sturdy at the same time. The colors and design are beautiful. Will be a returning customer!",
+    "Loved the variety of styles available. The support team was helpful when I had queries. Great value for money."
+
   },
   {
     name: "SAMANTHA J.",
-    title: "I LOVE EyeBuyDirect",
+    title: "I LOVE AmviEyewear",
     image: "https://img.freepik.com/free-photo/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-with-straight-blonde-hair-expresses-positiveness-poses_176420-13176.jpg?uid=R106559544&semt=ais_hybrid",
     content:
       "It's so user-friendly and the customer service is incredible! I tell everyone who compliments my glasses to use this site. Thank you!",
@@ -30,7 +32,8 @@ const reviews = [
     title: "Great Quality",
     image: "https://img.freepik.com/free-photo/cute-smiling-young-man-with-bristle-looking-satisfied_176420-18989.jpg?uid=R106559544&semt=ais_hybrid",
     content:
-      "I love the style and quality of these glasses. I always get compliments on them and will definitely be buying more!",
+    "The glasses I bought are stylish and comfortable. Got so many compliments already. Will definitely shop again."
+
   },
 ];
 
