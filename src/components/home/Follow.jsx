@@ -7,9 +7,9 @@ function Follow() {
             <div class="title_and_follow flex flex-col justify-center">
                 {/* <!-- Title and Content --> */}
                 <div class="mb-8">
-                    <h4 class="text-black text-3xl font-bold leading-tight mb-4">@amvieyeware</h4>
+                    <h4 class="text-black text-3xl font-bold leading-tight mb-4">@amvieyewear</h4>
                     <p class="text-black text-base font-normal mb-6">
-                        Follow us on social for the latest trends and tag #amvieyeware in your new eyewear!
+                        Follow us on social for the latest trends and tag #amvieyewear in your new eyewear!
                     </p>
                     <a href="https://www.eyebuydirect.com/community" target="_blank">
                         <button class="bg-black text-white px-6 py-2 rounded font-medium hover:bg-gray-800">
@@ -79,7 +79,7 @@ function Follow() {
                             </a>
                         </div>
 
-                        <span class="text-white font-medium text-center text-xs">@eyebuydirect</span>
+                        <span class="text-white font-medium text-center text-xs">@amvieyewear</span>
                     </div>
 
                 </div>
@@ -101,7 +101,7 @@ function Follow() {
                             </a>
                         </div>
 
-                        <span class="text-white font-medium text-center text-xs">@eyebuydirect</span>
+                        <span class="text-white font-medium text-center text-xs">@amvieyewear</span>
                     </div>
                 </div>
                 {/* <!-- Item 3 --> */}
@@ -122,7 +122,7 @@ function Follow() {
                             </a>
                         </div>
 
-                        <span class="text-white font-medium text-center text-xs">@eyebuydirect</span>
+                        <span class="text-white font-medium text-center text-xs">@amvieyewear</span>
                     </div>
                 </div>
                 {/* <!-- Item 4 --> */}
@@ -143,7 +143,7 @@ function Follow() {
                             </a>
                         </div>
 
-                        <span class="text-white font-medium text-center text-xs">@eyebuydirect</span>
+                        <span class="text-white font-medium text-center text-xs">@amvieyewear</span>
                     </div>
                 </div>
 
@@ -165,7 +165,7 @@ function Follow() {
                             </a>
                         </div>
 
-                        <span class="text-white font-medium text-center text-xs">@eyebuydirect</span>
+                        <span class="text-white font-medium text-center text-xs">@amvieyewear</span>
                     </div>
                 </div>
             </div>
