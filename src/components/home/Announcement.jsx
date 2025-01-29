@@ -6,7 +6,7 @@ function Announcement() {
             <div class="flex items-center justify-center">
                 <p class="text-sm text-center">
                     India's top eyewear brand ❤️
-                    <a href="/collections/wildfire-glasses-donation" class="text-yellow-700 hover:underline">Learn more</a>
+                    <a href="/about" class="text-yellow-700 hover:underline">Learn more</a>
                 </p>
             </div>
         </div>
