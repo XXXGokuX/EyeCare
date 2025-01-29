@@ -35,7 +35,7 @@ function Banner() {
                         </picture>
                     </div>
                     <div
-                        class="absolute left-6 bottom-6 md:bottom-1/4 md:left-1/2 text-center md:max-w-[55.56%] mx-auto bg-transparent "
+                        class="absolute left-6 bottom-6 md:bottom-1/6 md:left-1/2 text-center md:max-w-[55.56%] mx-auto bg-transparent "
                     >
                         <div class="text-[#036B68] font-bold">
                             <p class="text-[16px] md:text-[17px] leading-[1.2] -mt-[7.7%]">RESOLUTION REFRESH</p>
