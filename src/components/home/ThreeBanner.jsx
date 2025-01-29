@@ -19,7 +19,7 @@ function ThreeBanner() {
                         />
                     </a>
                     <div class="mt-6">
-                        <h3 class="text-4xl font-bold text-gray-900">2-Day Delivery</h3>
+                        <h3 class="text-4xl font-bold text-gray-900">AMVI</h3>
                         <p class="mt-3 h-[88px] text-lg font-normal text-gray-700">
                             Glasses at your doorstep, <p class="font-medium leading-8"> in the blink of an eye.</p>
                         </p>
@@ -46,7 +46,7 @@ function ThreeBanner() {
                         />
                     </a>
                     <div class="mt-6">
-                        <h3 class="text-4xl font-bold text-gray-900">Glasses On Sale</h3>
+                        <h3 class="text-4xl font-bold text-gray-900">HITHVI</h3>
                         <p class="mt-3 h-[88px] text-lg font-normal text-gray-700">
                             Good looking out! Enjoy up to 50% off <p class="font-medium leading-8"> these eyewear picks.</p>
                         </p>
@@ -73,7 +73,7 @@ function ThreeBanner() {
                         />
                     </a>
                     <div class="mt-6">
-                        <h3 class="text-4xl font-bold text-gray-900">Fit & Style Quiz</h3>
+                        <h3 class="text-4xl font-bold text-gray-900">HITSAY</h3>
                         <p class="mt-3 h-[88px] text-lg font-normal text-gray-700">
                             Need some help figuring out which glasses are right for you? <p class="font-medium leading-8">
                                 Find your perfect pair.</p>
