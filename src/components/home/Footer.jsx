@@ -1,4 +1,5 @@
 import React from 'react'
+import googleIcon from "@/assets/google.png"
 
 function Footer() {
     return (
@@ -23,9 +24,7 @@ function Footer() {
                                 </svg>
                             </a>
                             <a href="https://www.google.com/maps/search/EyeBuyDirect/" target="_blank" rel="noopener noreferrer" title="Find us on Google Business">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.55 4.34a1.83 1.83 0 0 0-1.72-1.23H4.17A1.83 1.83 0 0 0 2.44 4.4L2 6.57h20l-.45-2.23ZM2 8.93v9.57a1.5 1.5 0 0 0 1.5 1.5h5.24v-6.52H5.9a.75.75 0 0 1-.75-.75V8.93H2Zm6.74 4.3v6.52h6.52v-6.52H8.74ZM18.1 8.93h-5.25v6.07a.75.75 0 0 1-.75.75h-2.8v6.52h7.2a1.5 1.5 0 0 0 1.5-1.5V8.93Zm-2.13 2.12a1.59 1.59 0 1 1-1.59 1.59 1.59 1.59 0 0 1 1.59-1.59Z"></path>
-                                </svg>
+                                <img src={googleIcon} className="h-6 w-6 text-white" />
                             </a>
 
 
