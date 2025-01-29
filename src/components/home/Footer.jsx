@@ -24,7 +24,7 @@ function Footer() {
                                 </svg>
                             </a>
                             <a href="https://www.google.com/maps/search/EyeBuyDirect/" target="_blank" rel="noopener noreferrer" title="Find us on Google Business">
-                                <img src={googleIcon} className="h-6 w-6 text-white" />
+                                <img src={googleIcon} className="h-8 w-8" />
                             </a>
 
 
