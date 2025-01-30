@@ -8,7 +8,7 @@ function ThreeBanner() {
                 {/* <!-- Promo Item 1 --> */}
                 <div class="flex flex-col items-center text-center">
                     <a
-                        href="https://www.eyebuydirect.com/fast-shipping-service"
+                        href="https://www.amvieyewear.com/fast-shipping-service"
                         aria-label="2-Day Delivery Glasses at your doorstep, in the blink of an eye. Shop now"
                         class="relative block w-full max-w-sm lg:max-w-full"
                     >
@@ -35,7 +35,7 @@ function ThreeBanner() {
                 {/* <!-- Promo Item 2 --> */}
                 <div class="flex flex-col items-center text-center">
                     <a
-                        href="https://www.eyebuydirect.com/campaign/onsale"
+                        href="https://www.amvieyewear.com/campaign/onsale"
                         aria-label="Glasses On Sale Good looking out! Enjoy up to 50% off these eyewear picks. Shop now"
                         class="relative block w-full max-w-sm lg:max-w-full"
                     >
@@ -62,7 +62,7 @@ function ThreeBanner() {
                 {/* <!-- Promo Item 3 --> */}
                 <div class="flex flex-col items-center text-center">
                     <a
-                        href="https://www.eyebuydirect.com/quiz/glasses-frame-finder"
+                        href="https://www.amvieyewear.com/quiz/glasses-frame-finder"
                         aria-label="Fit & Style Quiz Need some help figuring out which glasses are right for you? Find your perfect pair. Take the quiz"
                         class="relative block w-full max-w-sm lg:max-w-full"
                     >

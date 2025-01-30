@@ -35,10 +35,10 @@ function EveryVision() {
                 </p>
             </div>
             <div class="flex flex-col md:flex-row items-center justify-center gap-4">
-                <a href="https://www.eyebuydirect.com/eyeglasses">
+                <a href="https://www.amvieyewear.com/eyeglasses">
                     <button class="px-6 py-2 text-sm font-normal border-[1px] border-black rounded hover:text-[#d39d4e] hover:border-[#d39d4e]">Shop eyeglasses</button>
                 </a>
-                <a href="https://www.eyebuydirect.com/sunglasses">
+                <a href="https://www.amvieyewear.com/sunglasses">
                     <button class="px-6 py-2 text-sm font-normal border-[1px] border-black rounded hover:text-[#d39d4e] hover:border-[#d39d4e]">Shop sunglasses</button>
                 </a>
             </div>

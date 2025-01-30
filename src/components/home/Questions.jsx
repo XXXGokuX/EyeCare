@@ -29,7 +29,7 @@ function Questions() {
                         />
                     </div>
                     <a
-                        href="https://www.eyebuydirect.com/guides/how-to-read-a-prescription"
+                        href="https://www.amvieyewear.com/guides/how-to-read-a-prescription"
                         class="hover:text-[#d39d4e] underline text-lg font-medium"
                     >
                         How to Read a Prescription
@@ -46,7 +46,7 @@ function Questions() {
                         />
                     </div>
                     <a
-                        href="https://www.eyebuydirect.com/guides/how-to-measure-your-pd"
+                        href="https://www.amvieyewear.com/guides/how-to-measure-your-pd"
                         class="hover:text-[#d39d4e] underline text-lg font-medium"
                     >
                         Pupillary Distance
@@ -63,7 +63,7 @@ function Questions() {
                         />
                     </div>
                     <a
-                        href="https://www.eyebuydirect.com/guides/frames-and-face-shapes"
+                        href="https://www.amvieyewear.com/guides/frames-and-face-shapes"
                         class="hover:text-[#d39d4e] underline text-lg font-medium"
                     >
                         Frames & Face Shapes
@@ -80,7 +80,7 @@ function Questions() {
                         />
                     </div>
                     <a
-                        href="https://www.eyebuydirect.com/guides/how-to-buy-prescription-eyeglasses-online"
+                        href="https://www.amvieyewear.com/guides/how-to-buy-prescription-eyeglasses-online"
                         class="hover:text-[#d39d4e] underline text-lg font-medium"
                     >
                         How to Buy Glasses Online

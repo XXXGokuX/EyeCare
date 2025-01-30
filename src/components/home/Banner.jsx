@@ -5,7 +5,7 @@ function Banner() {
         <>
             <div id="hero-banner" class="relative mb-0 font-[Outfit]">
                 <a
-                    href="https://www.eyebuydirect.com/campaign/promotion?coupon=refresh"
+                    href="https://www.amvieyewear.com/campaign/promotion?coupon=refresh"
                     target="_self"
                     class="block"
                 >

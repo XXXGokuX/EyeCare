@@ -11,7 +11,7 @@ function Follow() {
                     <p class="text-black text-base font-normal mb-6">
                         Follow us on social for the latest trends and tag #amvieyewear in your new eyewear!
                     </p>
-                    <a href="https://www.eyebuydirect.com/community" target="_blank">
+                    <a href="https://www.amvieyewear.com/community" target="_blank">
                         <button class="bg-black text-white px-6 py-2 rounded font-medium hover:bg-gray-800">
                             Shop the Look
                         </button>

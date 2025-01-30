@@ -5,7 +5,7 @@ function Tryon() {
         <div class=" max-w-5xl m-16 flex flex-col lg:flex-row items-center lg:justify-between gap-8 px-6 lg:px-12 mx-auto">
             {/* <!-- Video Section --> */}
             <div class="relative w-full lg:w-1/2">
-                <a href="https://www.eyebuydirect.com/virtual-try-on" aria-label="A woman wearing glasses showing a virtual try-on feature.">
+                <a href="https://www.amvieyewear.com/virtual-try-on" aria-label="A woman wearing glasses showing a virtual try-on feature.">
                     <video
                         autoplay
                         muted
@@ -27,7 +27,7 @@ function Tryon() {
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
                     Find frames that fit your face with our handy Virtual Try-On feature, then just add your prescription lens!
                 </p>
-                <a href="https://www.eyebuydirect.com/virtual-try-on">
+                <a href="https://www.amvieyewear.com/virtual-try-on">
                     <button
                         type="button"
                         class="px-6 py-1.5 rounded-md shadow-md border-[1px] border-black  transition-all hover:border-[#d39d4e] hover:text-[#d39d4e]"

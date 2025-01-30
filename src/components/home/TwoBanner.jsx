@@ -6,7 +6,7 @@ function TwoBanner() {
             {/* <!-- Promo Item 1 --> */}
             <div class="group relative bg-gray-900 text-white  overflow-hidden shadow-lg">
                 <a
-                    href="https://www.eyebuydirect.com/collections/heart-shaped-glasses"
+                    href="https://www.amvieyewear.com/collections/heart-shaped-glasses"
                     aria-label="Eyewear Love - More heart styles to adore. Shop now"
                     class="block"
                 >
@@ -28,7 +28,7 @@ function TwoBanner() {
             {/* <!-- Promo Item 2 --> */}
             <div class="group relative bg-gray-900 text-white overflow-hidden shadow-lg">
                 <a
-                    href="https://www.eyebuydirect.com/campaign/brands"
+                    href="https://www.amvieyewear.com/campaign/brands"
                     aria-label="Premium Brands - Designer eyewear at affordable prices. Shop now"
                     class="block"
                 >
